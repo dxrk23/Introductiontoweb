@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #FCFDF7;
+    text-decoration: none;
+}
+html{
+     scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+#headerMain{
+  width:920px;
+  height: 100px;
+  margin:0px auto;
+  z-index: 99999999;
+}
+.background{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    box-shadow: 1px 1px 6px black;
+    z-index: 999999;
+}
+#header {
+  width:920px;
+  height: 100px;
+  position: fixed;
+  z-index: 99999999;
+}
+.logo{
+    margin-top: 15px;
+    text-decoration: none;
+    margin-left:  -300px;
+    color: snow;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.logo:hover{
+    color: antiquewhite;
+}
+.navigation{
+    margin-top: 15px;
+    margin-left: -70px;
+}
+
+.List-link{
+    margin: 15px;
+    margin-left: 510px;
+    text-decoration: none;
+    cursor: pointer;
+    color: snow;
+    transition: 0.5s;
+}
+.List-link:hover{
+    color: antiquewhite;
+}
+.news-link{
+    margin: 15px;
+    margin-left: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    color: snow;
+    transition: 0.5s;
+}
+.news-link:hover{
+    color: antiquewhite;
+}
+.top100-link{
+    margin: 15px;
+    margin-left: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    color: snow;
+    transition: 0.5s;
+}
+.top100-link:hover{
+    color: antiquewhite;
+}
