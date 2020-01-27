@@ -241,8 +241,9 @@ input[name="r"]{
 }
 
 .kakegurui{
-  margin-top: -207px;
-  margin-left: 500px;
+  position: absolute;
+  top: 817px;
+  right : 452px;
 }
 .nevesta{
   margin-left: -500px;
@@ -250,9 +251,9 @@ input[name="r"]{
 
 .footermain{
   width:920px;
-  height: 100px;
+  height: 200px;
   margin: 0px auto;
-  z-index: 99999999;
+  z-index: 99999;
   background-color: black;
   width: 100%;
 }
@@ -280,4 +281,16 @@ input[name="r"]{
   font-weight: bold;
   font-size: 32px;
   margin-top: -220px;
+}
+
+.kakedisc{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nevestadisc{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }

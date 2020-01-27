@@ -32,7 +32,7 @@
   <div class="psk">
   <form class="Poisk">
     <p align="center">
-      <input type="search" name="q" placeholder="Search anime" class="poiskk">
+      <input type="search" name=""  placeholder="Search anime" class="poiskk">
       <!-- <input type="submit" value="Find" class="submit"> -->
    </p>
   </form>
@@ -81,12 +81,14 @@
 
   <div class="novinki">
     <div class="nov1">
-      <p class="kake">kakegurui</p>
-      <a href=""><img class="kakegurui" src="pics/kakegurui.jpg" width="500" height="400" alt=""></a>
+      <p class="kake" onclick="kakegenre()">kakegurui</p>
+      <p class="kakedisc" id="test1"></p>
+      <a href=""><img class="kakegurui" alt="" src="pics/kakegurui.jpg" width="500" height="400" alt=""></a>
     </div>
     <div class="nov2">
-      <a href=""><img class="nevesta" src="pics/nevesta.jpg" width="500" height="400" alt=""></a>
-      <p class="nevest">Mahoutsukai no Yome</p>
+      <a href=""><img class="nevesta" alt="" src="pics/nevesta.jpg" width="500" height="400" alt=""></a>
+      <p class="nevest" onclick="nevestagenre()">Mahoutsukai no Yome</p>
+      <p class="nevestadisc" id="test2"></p>
     </div>
   </div>
   &nbsp
@@ -98,6 +100,8 @@
 
   </div>
 </footer>
-
+<script src="index.js"></script>
 </body>
+
+
 </html>

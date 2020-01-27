@@ -1,9 +1,35 @@
 body{
   margin: 0px;
   padding: 0px;
-  background: #2ecc71;
+  background: snow;
 }
-.slidershow{
+
+.btn{
+  padding: 100px;
+}
+
+.but {
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  width: 90px;
+  height: 30px;
+}
+
+.drop{
+  box-shadow: 0px 0px 2px black;
+  margin-top: -115px;
+  margin-left: 100px;
+  background-color: antiquewhite;
+  width: 90px;
+  height: 100px;
+}
+
+.show {
+
+}
+/* .slidershow{
   width: 700px;
   height: 400px;
   overflow: hidden;
@@ -64,4 +90,4 @@ input[name="r"]{
 }
 #r5:checked ~ .s1{
   margin-left: -80%;
-}
+} */
