@@ -294,3 +294,16 @@ input[name="r"]{
   font-size: 24px;
   font-weight: bold;
 }
+
+.contc{
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 70px;
+}
+
+.contacts{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
