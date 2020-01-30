@@ -29,7 +29,7 @@ function nevestagenre(){
       document.getElementById('test2').innerHTML = "Magic Fantesy";
       break;
     case 2:
-      document.getElementById('test2').innerHTML = "Anime about gambling in high school.";
+      document.getElementById('test2').innerHTML = "High school student Chise Hatori decides to sell herself at an auction in order for somebody else to take her in and have a new place to call home.";
       break;
   }
   if (nevestacounter == 2){
