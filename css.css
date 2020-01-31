@@ -266,7 +266,7 @@ input[name="r"]{
 } */
 
 .kake{
-  cursor: default;
+  cursor: pointer;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -275,7 +275,7 @@ input[name="r"]{
 }
 
 .nevest{
-  cursor: default;
+  cursor: pointer;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;

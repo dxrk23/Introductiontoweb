@@ -1,3 +1,4 @@
+;
 var nevestacounter = 1 , kakecounter = 1;
 
 function kakegenre(){
@@ -12,15 +13,12 @@ function kakegenre(){
       document.getElementById('test1').innerHTML = "Anime about gambling in high school.";
       break;
   }
-  if (kakecounter == 2){
-    kakecounter = 0;
-  }
+  if (kakecounter == 2) kakecounter = 0;
   else ++kakecounter;
   return 0;
 }
 
 function nevestagenre(){
-
   switch (nevestacounter) {
     case 0:
       document.getElementById('test2').innerHTML = " ";
@@ -32,10 +30,7 @@ function nevestagenre(){
       document.getElementById('test2').innerHTML = "High school student Chise Hatori decides to sell herself at an auction in order for somebody else to take her in and have a new place to call home.";
       break;
   }
-  if (nevestacounter == 2){
-    nevestacounter = 0;
-  }
+  if (nevestacounter == 2) nevestacounter = 0;
   else ++nevestacounter;
   return 0;
-
 }
