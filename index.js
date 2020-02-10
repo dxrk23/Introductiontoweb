@@ -1,5 +1,5 @@
 ;
-var nevestacounter = 1 , kakecounter = 1;
+var nevestacounter = 1 , kakecounter = 1 , counterkake = 0 , counternevesta = 0;
 
 function kakegenre(){
   switch (kakecounter) {
@@ -33,4 +33,14 @@ function nevestagenre(){
   if (nevestacounter == 2) nevestacounter = 0;
   else ++nevestacounter;
   return 0;
+}
+
+function counter1(){
+  counterkake++;
+  document.getElementById('views1').innerHTML = "Views : " + counterkake;
+}
+
+function counter2(){
+  counternevesta++;
+  document.getElementById('counter2').innerHTML = "Views : " + counternevesta;
 }

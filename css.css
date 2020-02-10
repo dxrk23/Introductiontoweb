@@ -37,6 +37,7 @@ a{
   color: snow;
   font-size: 20px;
   transition: 0.5s;
+  padding: 0%;
 }
 
 .logo:hover{
@@ -60,6 +61,8 @@ a{
 .List-link:hover{
     color: antiquewhite;
 }
+
+
 
 .news-link{
     margin: 15px;
@@ -229,7 +232,7 @@ input[name="r"]{
 
 .kakegurui{
   position: absolute;
-  top: 84.5%;
+  top: 84.4%;
   right : 452px;
 }
 .nevesta{
