@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #FCFDF7;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.background{
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  box-shadow: 1px 1px 6px black;
+  z-index: 999999;
+}
+
+.navigation{
+  color : white;
+  margin-top: 1.8%;
+  margin-left: 5%;
+}
+
+.logo{
+  text-decoration: none;
+  color: snow;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.logo:hover{
+    color: antiquewhite;
+}
+
+.List{
+  margin-left: 0%;
+  margin-top: -1.1%;
+  word-spacing: 8%;
+}
+
+.List-link{
+    margin-left: 35%;
+    text-decoration: none;
+    cursor: pointer;
+    color: snow;
+    transition: 0.5s;
+}
+
+.List-link:hover{
+    color: antiquewhite;
+}
+
+.news-link{
+    margin: 15px;
+    margin-left: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    color: snow;
+    transition: 0.5s;
+}
+
+.news-link:hover{
+    color: antiquewhite;
+}
+
+.top100-link{
+    margin: 15px;
+    margin-left: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    color: snow;
+    transition: 0.5s;
+}
+
+.top100-link:hover{
+    color: antiquewhite;
+}
+
+.intro{
+  padding-top: 10%
+}
+
+.nazvanie{
+  margin-left: 451px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.kakepost{
+  width: 400px;
+  height: 700px;
+  margin-top : -3%;
+  margin-left : 55%;
+}
+
+.descrp{
+  margin-top: -32%;
+  margin-left: 451px;
+  text-transform: uppercase;
+}
+
+.player{
+  margin-left: 451px;
+}
+
+.footermain{
+  width:920px;
+  height: 200px;
+  margin: 0px auto;
+  z-index: 99999;
+  background-color: black;
+  width: 100%;
+}
+
+.contc{
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 70px;
+}
+
+.contacts{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
