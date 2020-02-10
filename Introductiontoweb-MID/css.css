@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #FCFDF7;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.background{
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  box-shadow: 1px 1px 6px black;
+  z-index: 999999;
+}
+
+.navigation{
+  color : white;
+  margin-top: 1.8%;
+  margin-left: 5%;
+}
+
+.logo{
+  text-decoration: none;
+  color: snow;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.logo:hover{
+    color: antiquewhite;
+}
+
+.List{
+  margin-left: 0.5%;
+  margin-top: -1.2%;
+  word-spacing: 8%;
+}
+
+.List-link{
+    margin-left: 35%;
+    text-decoration: none;
+    cursor: pointer;
+    color: snow;
+    transition: 0.5s;
+}
+
+.List-link:hover{
+    color: antiquewhite;
+}
+
+.news-link{
+    margin: 15px;
+    margin-left: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    color: snow;
+    transition: 0.5s;
+}
+
+.news-link:hover{
+    color: antiquewhite;
+}
+
+.top100-link{
+    margin: 15px;
+    margin-left: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    color: snow;
+    transition: 0.5s;
+}
+
+.top100-link:hover{
+    color: antiquewhite;
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+.psk{
+
+}
+
+.submit , .poiskk{
+  margin-top: 7%;
+  box-shadow: 0px 0px 1px black;
+  border: 1px solid black;
+  color: black;
+  background-color: #f2f2f2;
+  height: 50px;
+  text-align: center;
+  text-transform: none;
+  width: 1000px;
+}
+
+.slidershow{
+  box-shadow: 1px 1px 6px black;
+  margin-top: -2%;
+  width: 1000px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.navigat{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.bar:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+.newanime{
+  text-decoration: none;
+  width: 1000px;
+  height: 50px;
+  background-color: black;
+  margin-left: 451px;
+  margin-top : 30%;
+  position:  absolute;
+  box-shadow: 1px 1px 6px black;
+}
+
+.newlogo{
+  cursor: default;
+  color: white;
+  text-decoration: none ;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 13px;
+  text-shadow: 1px 1px 3px white;
+}
+
+:root{
+  --main-backnovcolor: antiquewhite;
+}
+
+.novinki{
+  margin-top: 15%;
+}
+
+.nov1{
+  width: 500px;
+  height: 400px;
+  background-color: var(--main-backnovcolor);
+  margin-left: 451px;
+  margin-top: 35%;
+}
+
+.nov2{
+  width: 500px;
+  height: 400px;
+  background-color: var(--main-backnovcolor);
+  margin-left: 951px;
+}
+
+.kakegurui{
+  position: absolute;
+  top: 84.5%;
+  right : 452px;
+}
+.nevesta{
+  margin-left: -500px;
+}
+
+.footermain{
+  width:920px;
+  height: 200px;
+  margin: 0px auto;
+  z-index: 99999;
+  background-color: black;
+  width: 100%;
+}
+
+/* .footerback{
+  background-color: black;
+  width: 100%;
+  box-shadow: 1px 1px 6px black;
+  z-index: 999999;
+} */
+
+.kake{
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  padding-top: 170px;
+}
+
+.nevest{
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: -220px;
+}
+
+.kakedisc{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nevestadisc{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contc{
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 70px;
+}
+
+.contacts{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}

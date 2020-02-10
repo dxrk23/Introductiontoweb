@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="pics/favicon.ico" type="image/x-icon">
+  <title>MidTerm</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <div id="start"></div>
+  <header>
+    <div class="background">
+      <nav class="navigation">
+        <b><a href="#start" class="logo"> Anime </a></b>
+        <div class="List">
+          <a href="" class="List-link"> Catalog </a>
+          <a href="#novinka" class="news-link"> New </a>
+          <a href="" class="top100-link">TOP10</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+<main>
+  
+  <div class="psk">
+  <form class="Poisk">
+    <p align="center">
+      <input type="search" name=""  placeholder="Search anime" class="poiskk">
+      <!-- <input type="submit" value="Find" class="submit"> -->
+   </p>
+  </form>
+</div>
+
+
+  <div class="slidershow middle">
+
+    <div class="slides">
+
+      <input type="radio" name="r" id="r1" checked>
+      <input type="radio" name="r" id="r2">
+      <input type="radio" name="r" id="r3">
+      <input type="radio" name="r" id="r4">
+      <input type="radio" name="r" id="r5">
+
+      <div class="slide s1">
+        <img src="pics/1.jpg" alt="" width="1000px" height="440px">
+      </div>
+      <div class="slide">
+        <img src="pics/2.jpg" alt="" width="1000px" height="440px">
+      </div>
+      <div class="slide">
+        <img src="pics/3.jpg" alt="" width="1000px" height="440px">
+      </div>
+      <div class="slide">
+        <img src="pics/4.jpg" alt="" width="1000px" height="440px">
+      </div>
+      <div class="slide">
+        <img src="pics/5.jpg" alt="" width="1000px" height="440px">
+      </div>
+    </div>
+
+
+
+    <div class="navigat">
+      <label for="r1" class="bar"></label>
+      <label for="r2" class="bar"></label>
+      <label for="r3" class="bar"></label>
+      <label for="r4" class="bar"></label>
+      <label for="r5" class="bar"></label>
+    </div>
+  </div>
+  <div id="novinka"></div>
+  <div class="newanime" id="">
+    <p class="newlogo">New on website</p>
+  </div>
+
+  <div class="novinki">
+    <div class="nov1">
+      <p class="kake" onclick="kakegenre()">kakegurui</p>
+      <p class="kakedisc" id="test1"></p>
+      <a href=""><img class="kakegurui" alt="" src="pics/kakegurui.jpg" width="500" height="400" alt=""></a>
+    </div>
+    <div class="nov2">
+      <a href=""><img class="nevesta" alt="" src="pics/nevesta.jpg" width="500" height="400" alt=""></a>
+      <p class="nevest" onclick="nevestagenre()">Mahoutsukai no Yome</p>
+      <p class="nevestadisc" id="test2"></p>
+    </div>
+  </div>
+  &nbsp
+
+
+</main>
+
+<footer>
+  <div class="footermain">
+    <div class="contc">
+      <li class="contacts">Author of Idea : Dimash</li>
+      <li class="contacts">Main Developer : Dimash</li>
+      <li class="contacts">Main Designer : Dimash</li>
+      <li class="contacts">ROGP : Olzhik</li>
+    </div>
+
+  </div>
+</footer>
+<script src="index.js"></script>
+</body>
+
+
+</html>
