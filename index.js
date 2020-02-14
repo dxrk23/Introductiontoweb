@@ -1,7 +1,9 @@
-;
-var nevestacounter = 1 , kakecounter = 1 , counterkake = 0 , counternevesta = 0;
+var nevestacounter = 1,
+  kakecounter = 1,
+  counterkake = 0,
+  counternevesta = 0;
 
-function kakegenre(){
+function kakegenre() {
   switch (kakecounter) {
     case 0:
       document.getElementById('test1').innerHTML = " ";
@@ -18,7 +20,7 @@ function kakegenre(){
   return 0;
 }
 
-function nevestagenre(){
+function nevestagenre() {
   switch (nevestacounter) {
     case 0:
       document.getElementById('test2').innerHTML = " ";
@@ -35,12 +37,12 @@ function nevestagenre(){
   return 0;
 }
 
-function counter1(){
+function counter1() {
   counterkake++;
   document.getElementById('views1').innerHTML = "Views : " + counterkake;
 }
 
-function counter2(){
+function counter2() {
   counternevesta++;
   document.getElementById('counter2').innerHTML = "Views : " + counternevesta;
 }

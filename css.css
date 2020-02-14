@@ -3,21 +3,21 @@
   padding: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Oswald', sans-serif;
-    background-color: #FCFDF7;
-    text-decoration: none;
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #FCFDF7;
+  text-decoration: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.background{
+.background {
   background-color: black;
   position: fixed;
   width: 100%;
@@ -26,13 +26,13 @@ a{
   z-index: 999999;
 }
 
-.navigation{
-  color : white;
+.navigation {
+  color: white;
   margin-top: 1.8%;
   margin-left: 5%;
 }
 
-.logo{
+.logo {
   text-decoration: none;
   color: snow;
   font-size: 20px;
@@ -40,67 +40,63 @@ a{
   padding: 0%;
 }
 
-.logo:hover{
-    color: antiquewhite;
+.logo:hover {
+  color: antiquewhite;
 }
 
-.List{
+.List {
   margin-left: 0.5%;
   margin-top: -1.2%;
   word-spacing: 8%;
 }
 
-.List-link{
-    margin-left: 35%;
-    text-decoration: none;
-    cursor: pointer;
-    color: snow;
-    transition: 0.5s;
+.List-link {
+  margin-left: 35%;
+  text-decoration: none;
+  cursor: pointer;
+  color: snow;
+  transition: 0.5s;
 }
 
-.List-link:hover{
-    color: antiquewhite;
+.List-link:hover {
+  color: antiquewhite;
 }
 
-
-
-.news-link{
-    margin: 15px;
-    margin-left: 100px;
-    text-decoration: none;
-    cursor: pointer;
-    color: snow;
-    transition: 0.5s;
+.news-link {
+  margin: 15px;
+  margin-left: 100px;
+  text-decoration: none;
+  cursor: pointer;
+  color: snow;
+  transition: 0.5s;
 }
 
-.news-link:hover{
-    color: antiquewhite;
+.news-link:hover {
+  color: antiquewhite;
 }
 
-.top100-link{
-    margin: 15px;
-    margin-left: 100px;
-    text-decoration: none;
-    cursor: pointer;
-    color: snow;
-    transition: 0.5s;
+.top100-link {
+  margin: 15px;
+  margin-left: 100px;
+  text-decoration: none;
+  cursor: pointer;
+  color: snow;
+  transition: 0.5s;
 }
 
-.top100-link:hover{
-    color: antiquewhite;
+.top100-link:hover {
+  color: antiquewhite;
 }
 
-.footer{
-    width: 100%;
-    height: 30px;
-    background-color: black;
+.footer {
+  width: 100%;
+  height: 30px;
+  background-color: black;
 }
 
-.psk{
+.psk {}
 
-}
-
-.submit , .poiskk{
+.submit, .poiskk {
   margin-top: 7%;
   box-shadow: 0px 0px 1px black;
   border: 1px solid black;
@@ -112,7 +108,7 @@ a{
   width: 1000px;
 }
 
-.slidershow{
+.slidershow {
   box-shadow: 1px 1px 6px black;
   margin-top: -2%;
   width: 1000px;
@@ -120,14 +116,14 @@ a{
   overflow: hidden;
 }
 
-.middle{
+.middle {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
 }
 
-.navigat{
+.navigat {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -135,7 +131,7 @@ a{
   display: flex;
 }
 
-.bar{
+.bar {
   width: 50px;
   height: 10px;
   border: 2px solid #fff;
@@ -144,61 +140,66 @@ a{
   transition: 0.4s;
 }
 
-.bar:hover{
+.bar:hover {
   background: #fff;
 }
 
-input[name="r"]{
+input[name="r"] {
   position: absolute;
   visibility: hidden;
 }
 
-.slides{
+.slides {
   width: 500%;
   height: 100%;
   display: flex;
 }
 
-.slide{
+.slide {
   width: 20%;
   transition: 0.6s;
 }
-.slide img{
+
+.slide img {
   width: 100%;
   height: 100%;
 }
 
-#r1:checked ~ .s1{
+#r1:checked~.s1 {
   margin-left: 0;
 }
-#r2:checked ~ .s1{
+
+#r2:checked~.s1 {
   margin-left: -20%;
 }
-#r3:checked ~ .s1{
+
+#r3:checked~.s1 {
   margin-left: -40%;
 }
-#r4:checked ~ .s1{
+
+#r4:checked~.s1 {
   margin-left: -60%;
 }
-#r5:checked ~ .s1{
+
+#r5:checked~.s1 {
   margin-left: -80%;
 }
 
-.newanime{
+.newanime {
   text-decoration: none;
   width: 1000px;
   height: 50px;
   background-color: black;
   margin-left: 451px;
-  margin-top : 30%;
-  position:  absolute;
+  margin-top: 30%;
+  position: absolute;
   box-shadow: 1px 1px 6px black;
 }
 
-.newlogo{
+.newlogo {
   cursor: default;
   color: white;
-  text-decoration: none ;
+  text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -207,15 +208,15 @@ input[name="r"]{
   text-shadow: 1px 1px 3px white;
 }
 
-:root{
+:root {
   --main-backnovcolor: antiquewhite;
 }
 
-.novinki{
+.novinki {
   margin-top: 15%;
 }
 
-.nov1{
+.nov1 {
   width: 500px;
   height: 400px;
   background-color: var(--main-backnovcolor);
@@ -223,24 +224,25 @@ input[name="r"]{
   margin-top: 35%;
 }
 
-.nov2{
+.nov2 {
   width: 500px;
   height: 400px;
   background-color: var(--main-backnovcolor);
   margin-left: 951px;
 }
 
-.kakegurui{
+.kakegurui {
   position: absolute;
   top: 84.4%;
-  right : 452px;
+  right: 452px;
 }
-.nevesta{
+
+.nevesta {
   margin-left: -500px;
 }
 
-.footermain{
-  width:920px;
+.footermain {
+  width: 920px;
   height: 200px;
   margin: 0px auto;
   z-index: 99999;
@@ -254,8 +256,7 @@ input[name="r"]{
   box-shadow: 1px 1px 6px black;
   z-index: 999999;
 } */
-
-.kake{
+.kake {
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
@@ -264,7 +265,7 @@ input[name="r"]{
   padding-top: 170px;
 }
 
-.nevest{
+.nevest {
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
@@ -273,25 +274,25 @@ input[name="r"]{
   margin-top: -220px;
 }
 
-.kakedisc{
+.kakedisc {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
 }
 
-.nevestadisc{
+.nevestadisc {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
 }
 
-.contc{
+.contc {
   margin-left: 20px;
   position: absolute;
   margin-top: 70px;
 }
 
-.contacts{
+.contacts {
   list-style: none;
   color: white;
   text-align: left;

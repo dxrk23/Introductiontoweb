@@ -3,21 +3,21 @@
   padding: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Oswald', sans-serif;
-    background-color: #FCFDF7;
-    text-decoration: none;
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #FCFDF7;
+  text-decoration: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.background{
+.background {
   background-color: black;
   position: fixed;
   width: 100%;
@@ -26,97 +26,97 @@ a{
   z-index: 999999;
 }
 
-.navigation{
-  color : white;
+.navigation {
+  color: white;
   margin-top: 1.8%;
   margin-left: 5%;
 }
 
-.logo{
+.logo {
   text-decoration: none;
   color: snow;
   font-size: 20px;
   transition: 0.5s;
 }
 
-.logo:hover{
-    color: antiquewhite;
+.logo:hover {
+  color: antiquewhite;
 }
 
-.List{
+.List {
   margin-left: 0%;
   margin-top: -1.1%;
   word-spacing: 8%;
 }
 
-.List-link{
-    margin-left: 35%;
-    text-decoration: none;
-    cursor: pointer;
-    color: snow;
-    transition: 0.5s;
+.List-link {
+  margin-left: 35%;
+  text-decoration: none;
+  cursor: pointer;
+  color: snow;
+  transition: 0.5s;
 }
 
-.List-link:hover{
-    color: antiquewhite;
+.List-link:hover {
+  color: antiquewhite;
 }
 
-.news-link{
-    margin: 15px;
-    margin-left: 100px;
-    text-decoration: none;
-    cursor: pointer;
-    color: snow;
-    transition: 0.5s;
+.news-link {
+  margin: 15px;
+  margin-left: 100px;
+  text-decoration: none;
+  cursor: pointer;
+  color: snow;
+  transition: 0.5s;
 }
 
-.news-link:hover{
-    color: antiquewhite;
+.news-link:hover {
+  color: antiquewhite;
 }
 
-.top100-link{
-    margin: 15px;
-    margin-left: 100px;
-    text-decoration: none;
-    cursor: pointer;
-    color: snow;
-    transition: 0.5s;
+.top100-link {
+  margin: 15px;
+  margin-left: 100px;
+  text-decoration: none;
+  cursor: pointer;
+  color: snow;
+  transition: 0.5s;
 }
 
-.top100-link:hover{
-    color: antiquewhite;
+.top100-link:hover {
+  color: antiquewhite;
 }
 
-.intro{
+.intro {
   padding-top: 10%
 }
 
-.nazvanie{
+.nazvanie {
   margin-left: 451px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 32px;
 }
 
-.kakepost{
+.kakepost {
   width: 400px;
   height: 700px;
-  margin-top : -3%;
-  margin-left : 55%;
+  margin-top: -3%;
+  margin-left: 55%;
 }
 
-.descrp{
+.descrp {
   margin-top: -32%;
   margin-left: 451px;
   text-transform: uppercase;
 }
 
-.player{
+.player {
   margin-left: 451px;
 }
 
-.footermain{
-  width:920px;
+.footermain {
+  width: 920px;
   height: 200px;
   margin: 0px auto;
   z-index: 99999;
@@ -124,13 +124,13 @@ a{
   width: 100%;
 }
 
-.contc{
+.contc {
   margin-left: 20px;
   position: absolute;
   margin-top: 70px;
 }
 
-.contacts{
+.contacts {
   list-style: none;
   color: white;
   text-align: left;
