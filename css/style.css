@@ -21,6 +21,10 @@
   justify-content: center;
 }
 
+.nav-item{
+  background-color: #222222;
+}
+
 .navbar-toggler {
   background: #fff !important;
 }
