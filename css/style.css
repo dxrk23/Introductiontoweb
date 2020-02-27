@@ -1,0 +1,213 @@
+.navbar {
+  background: #222222;
+  height: 80px;
+}
+
+.nav-link, .navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  background: #f4f4f4;
+  color: #1C5D99;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+.navbar-toggler-icon {
+  padding-top: 15%;
+}
+
+div.spacing {
+  height: 200px;
+}
+
+.expandmain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Expanding {
+  transition: width 0.5s ease-in-out;
+  -webkit-transition: width 0.5s ease-in-out;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: antiquewhite;
+}
+
+.moneylogo {
+  width: 100px;
+  height: 100px;
+}
+
+.Popolnenie {
+  display: none;
+}
+
+.Expanding:hover .Popolnenie {
+  display: block;
+}
+
+.Expanding:hover .moneylogo {
+  display: none;
+}
+
+.Expanding:hover .phonelogo {
+  display: none;
+}
+
+.Expanding:hover {
+  width: 500px;
+  height: 700px;
+  background-color: antiquewhite;
+}
+
+.ExpandBIG {
+  width: 100px;
+  height: 100px;
+}
+
+.ExpandBIG:hover {
+  width: 1200px;
+  height: 900px;
+}
+
+.Popolnenie {}
+
+.headrs img {
+  width: 40px;
+  height: 40px;
+}
+
+.headrs {}
+
+.headd {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.headd h4 {
+  margin-top: 2%;
+}
+
+hr {
+  border-top: 1px solid black;
+}
+
+.celllogo {
+  width: 100px;
+  height: 100px;
+  /* background-color: white; */
+  /* border: 1px solid black; */
+  margin-left: 40%;
+  margin-top: 10%;
+  position: absolute;
+}
+
+.form-control {
+  position: absolute;
+}
+
+.forma1 {
+  margin-top: 40%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.forma2 {
+  margin-top: 50%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.forma3 {
+  margin-top: 60%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.telephone {
+  display: flex;
+  justify-content:
+}
+
+.subbtn {
+  margin-top: 75%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.naskolkobogat {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+
+.tarifi {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+
+.tarif {
+  width: 250px;
+  height: 320px;
+  background-color: snow;
+  margin-bottom: 6%;
+}
+
+.tarifi .Price {
+  text-align: center;
+}
+
+.disc {
+  text-align: center;
+  font-weight: 500;
+}
+
+.morebtn {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.tarif1{
+  margin-top: -5%;
+}
+
+.tarif1 , .tarif2 , .tarif3 , .tarif4 , .tarif5 , .tarif6 , .tarif7 , .tarif8 {
+  display: none;
+}
+
+.vvod{
+  display: none;
+}
+
+.ExpandBIG:hover .vvod{
+  display: block;
+}
+/* Matching colors TODO:  #FFFFFF  #1C5D99 #639FAB #222222*/

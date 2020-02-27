@@ -298,3 +298,11 @@ input[name="r"] {
   text-align: left;
   font-weight: bold;
 }
+
+.polojitdeneg{
+  margin-left: 30%;
+  text-decoration: none;
+  cursor: pointer;
+  color: snow;
+  transition: 0.5s;
+}

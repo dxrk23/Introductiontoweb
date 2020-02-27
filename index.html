@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/css.css">
+  <title>Progress 7</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+      <a class="navbar-brand" href="midterm.html">Anime</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> &#9776; </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-3">
+          <li class="nav-item">
+            <a class="nav-link" data-value="Catalog" href="#">Catalog </a> </li>
+          <li class="nav-item">
+            <a class="nav-link " data-value="NEW" href="midterm.html">NEW</a> </li>
+          <li class="nav-item">
+            <a class="nav-link " data-value="TOP10" href="#">TOP10</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="spacing"></div>
+
+  <div class="expandmain">
+    <div class="Expanding">
+      <img src="logos/moneylogo.jpg" class="moneylogo" alt="">
+      <div class="Popolnenie">
+        <div class="telephone">
+          <div class="celllogo">
+
+          </div>
+          <input type="text" class="form-control forma1" id="Phone" onchange="logocheck()" placeholder="Enter yor mobile phone" value="" required="">
+          <input type="text" class="form-control forma2" id="Money" placeholder="How much do you want send to your phome balance?" value="" required="">
+          <input type="text" class="form-control forma3" id="CardNumber" placeholder="Enter your card number" value="" required="">
+          <button class="btn btn-lg btn-primary btn-block subbtn" onclick="validation()" type="submit">Popolnit'</button>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="Expanding ExpandBIG">
+      <img src="logos/phone.png" class="phonelogo" alt="">
+      <div class="vvod">
+        <input type="text" class="form-control naskolkobogat" id="budget" onchange="tariffcheck()" placeholder="How much do you able spend each month?" value="" required="">
+      </div>
+      <div class="tarifi">
+
+        <div class="t1">
+          <div class="tarif1 tarif">
+            <div class="headrs">
+              <div class="headd">
+                <img src="logos/beeline.png" alt="">
+                <h4>"Яркий"</h4>
+              </div>
+            </div>
+            <hr>
+            <h3 class="Price">1990tg</h3>
+            <div class="disc">
+              <p>Calls to Beeline: Unlimited</p>
+              <p>Internet : 5GB</p>
+              <p>Call to other opertators : 50min</p>
+            </div>
+            <button type="button" class="btn btn-lg btn-block btn-primary morebtn">More...</button>
+          </div>
+        </div>
+
+        <div class="tarif2 tarif">
+          <div class="headrs">
+            <div class="headd">
+              <img src="logos/beeline.png" alt="">
+              <h4>"Яркий"</h4>
+            </div>
+          </div>
+          <hr>
+          <h3 class="Price">2590tg</h3>
+          <div class="disc">
+            <p>Calls to Beeline: Unlimited</p>
+            <p>Internet : 10GB</p>
+            <p>Call to other opertators : 100min</p>
+          </div>
+          <button type="button" class="btn btn-lg btn-block btn-primary morebtn">More...</button>
+        </div>
+
+
+
+        <div class="tarif3 tarif">
+          <div class="headrs">
+            <div class="headd">
+              <img src="logos/beeline.png" alt="">
+              <h4>"Яркий"</h4>
+            </div>
+          </div>
+          <hr>
+          <h3 class="Price">2990tg</h3>
+          <div class="disc">
+            <p>Calls to Beeline: Unlimited</p>
+            <p>Internet : 15GB</p>
+            <p>Call to other opertators : 150min</p>
+          </div>
+          <button type="button" class="btn btn-lg btn-block btn-primary morebtn">More...</button>
+        </div>
+
+
+
+        <div class="tarif4 tarif">
+          <div class="headrs">
+            <div class="headd">
+              <img src="logos/kcell.png" alt="">
+              <h4>"Престиж2+"</h4>
+            </div>
+          </div>
+          <hr>
+          <h3 class="Price">2590tg</h3>
+          <div class="disc">
+            <p>Calls to Kcell: Unlimited</p>
+            <p>Internet : 15GB</p>
+            <p>Call to other opertators : 300min</p>
+          </div>
+          <button type="button" class="btn btn-lg btn-block btn-primary morebtn">More...</button>
+        </div>
+
+
+        <div class="tarif5 tarif">
+          <div class="headrs">
+            <div class="headd">
+              <img src="logos/kcell.png" alt="">
+              <h4>"Престиж3+"</h4>
+            </div>
+          </div>
+          <hr>
+          <h3 class="Price">3590tg</h3>
+          <div class="disc">
+            <p>Calls to Kcell: Unlimited</p>
+            <p>Internet : 20GB</p>
+            <p>Call to other opertators : 400min</p>
+          </div>
+          <button type="button" class="btn btn-lg btn-block btn-primary morebtn">More...</button>
+        </div>
+
+
+
+        <div class="tarif6 tarif">
+          <div class="headrs">
+            <div class="headd">
+              <img src="logos/kcell.png" alt="">
+              <h4>"Престиж5+"</h4>
+            </div>
+          </div>
+          <hr>
+          <h3 class="Price">5590tg</h3>
+          <div class="disc">
+            <p>Calls to Kcell: Unlimited</p>
+            <p>Internet : 25GB</p>
+            <p>Call to other opertators : 500min</p>
+          </div>
+          <button type="button" class="btn btn-lg btn-block btn-primary morebtn">More...</button>
+        </div>
+
+
+        <div class="tarif7 tarif">
+          <div class="headrs">
+            <div class="headd">
+              <img src="logos/tele2.png" alt="">
+              <h4>"Меняй Все"</h4>
+            </div>
+          </div>
+          <hr>
+          <h3 class="Price">1390tg</h3>
+          <div class="disc">
+            <p>Calls to Tele2: Unlimited</p>
+            <p>Internet : 5GB</p>
+            <p>Call to other opertators : 50min</p>
+          </div>
+          <button type="button" class="btn btn-lg btn-block btn-primary morebtn">More...</button>
+        </div>
+
+
+        <div class="tarif8 tarif">
+          <div class="headrs">
+            <div class="headd">
+              <img src="logos/tele2.png" alt="">
+              <h4>"Меняй Все"</h4>
+            </div>
+          </div>
+          <hr>
+          <h3 class="Price">1890tg</h3>
+          <div class="disc">
+            <p>Calls to Tele2: Unlimited</p>
+            <p>Internet : 10GB</p>
+            <p>Call to other opertators : 80min</p>
+          </div>
+          <button type="button" class="btn btn-lg btn-block btn-primary morebtn">More...</button>
+        </div>
+
+
+      </div>
+    </div>
+    <br><br>
+  </div>
+  <div class="spacing"></div>
+  <div class="spacing"></div>
+  <footer>
+    <div class="footermain">
+      <div class="contc">
+        <li class="contacts">Author of Idea : Dimash</li>
+        <li class="contacts">Main Developer : Dimash</li>
+        <li class="contacts">Main Designer : Dimash</li>
+        <li class="contacts">ROGP : Olzhik</li>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+
+</body>
+
+</html>
