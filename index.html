@@ -19,7 +19,7 @@
         <span class="navbar-toggler-icon"> &#9776; </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="bg-dark4">
+        <div class="head__bg">
           <ul class="navbar-nav mr-3">
             <li class="nav-item">
               <a class="nav-link" data-value="Catalog" href="#">Catalog </a> </li>
@@ -27,8 +27,8 @@
               <a class="nav-link " data-value="NEW" href="midterm.html">NEW</a> </li>
             <li class="nav-item">
               <a class="nav-link " data-value="TOP10" href="#">TOP10</a> </li>
+          </ul>
         </div>
-        </ul>
       </div>
     </nav>
   </header>
@@ -42,7 +42,7 @@
           <div class="celllogo">
 
           </div>
-          <input type="text" class="form-control forma1" id="Phone" onchange="logocheck()" placeholder="Enter yor mobile phone" value="" required="">
+          <input type="text" class="form-control forma1" id="Phone" oninput="logocheck()" placeholder="Enter yor mobile phone" maxlength="12" value="" required="">
           <input type="text" class="form-control forma2" id="Money" placeholder="How much do you want send to your phome balance?" value="" required="">
           <input type="text" class="form-control forma3" id="CardNumber" placeholder="Enter your card number" value="" required="">
           <button class="btn btn-lg btn-primary btn-block subbtn" onclick="validation()" type="submit">Popolnit'</button>
@@ -53,13 +53,13 @@
     <div class="Expanding ExpandBIG">
       <img src="logos/phone.png" class="phonelogo" alt="">
       <div class="vvod">
-        <input type="text" class="form-control naskolkobogat" id="budget" onchange="tariffcheck()" placeholder="How much do you able spend each month?" value="" required="">
+        <input type="text" class="form-control naskolkobogat" id="budget" oninput="tariffcheck()" placeholder="How much do you able spend each month?" value="" required="">
       </div>
       <div class="tarifi">
 
         <div class="t1">
           <div class="tarif1 tarif">
-            <div class="headrs">
+            <div class="headrs head1">
               <div class="headd">
                 <img src="logos/beeline.png" alt="">
                 <h4>"Яркий"</h4>

@@ -44,12 +44,42 @@ function logocheck() {
 }
 
 function validation() {
-  Swal.fire({
-    icon: 'success',
-    title: 'transaction passed',
-    text: 'In few minutes your balance should popolnitsay!',
-    footer: '<a href>One more operation?</a>'
-  });
+  let x = document.querySelector("#Phone").value;
+  let y = document.querySelector("#Money").value;
+  let z = document.querySelector("#CardNumber").value;
+  if (x > 77000000000 && x<77999999999) {
+    if (y > 0) {
+      if (z > 1000000000000000 && z < 9999999999999999) {
+        Swal.fire({
+          icon: 'success',
+          title: 'transaction passed',
+          text: 'In few minutes your balance should popolnitsay!',
+          footer: '<a href="midterm.html">Back to main page</a>'
+        });
+      } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'transaction error',
+          text: 'Something went wrong!',
+          footer: '<a href="midterm.html">Back to main page</a>'
+        });
+      }
+    } else {
+      Swal.fire({
+        icon: 'error',
+        title: 'transaction error',
+        text: 'Something went wrong!',
+        footer: '<a href="midterm.html">Back to main page</a>'
+      });
+    }
+  } else {
+    Swal.fire({
+      icon: 'error',
+      title: 'transaction error',
+      text: 'Something went wrong!',
+      footer: '<a href="midterm.html">Back to main page</a>'
+    });
+  }
 }
 
 function tariffcheck() {
