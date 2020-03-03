@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.__buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20%;
+  margin-left: 26%;
+}
+
+.btn {
+  width: 100px !important;
+  height: 50px;
+}
+
+.__background {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.__border {
+  border: 50px solid silver;
+  height: 400px;
+  width: 400px;
+  display: flex;
+}
+
+.__cells {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.__white {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.__black {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.mdc-button:not(:disabled) {
+  color: black !important;
+}
+
+.mdc-button .mdc-button__ripple::before, .mdc-button .mdc-button__ripple::after {
+  background-color: green !important;
+}
+
+.mdc-button--outlined:not(:disabled) {
+  border-color: black !important;
+}
+
+.__horizontal_one, .__horizontal_two {
+  width: 400px;
+  height: 50px;
+  display: flex;
+}
+
+.__horizontal_two {
+  margin-top: 430px;
+  flex-direction: row;
+}
+
+.__horizontal_one {
+  transform: rotate(180deg);
+  margin-top: -3%;
+  flex-direction: row-reverse;
+}
+
+.__vertical_one, .__vertical_two {
+  width: 50px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.__vertical_one {
+  margin-top: 50px;
+  margin-left: -500px;
+  flex-direction: column-reverse;
+}
+
+.__vertical_two {
+  margin-top: -400px;
+  margin-left: -50px;
+  flex-direction: column;
+  transform: rotate(180deg);
+}
+
+.__hotrizontals {
+  position: absolute;
+  margin-left: -450px;
+}
+
+.__verticals {
+  position: absolute;
+}
+
+.__vertical_cells {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-weight: bolder;
+}
+
+.__hotrizontal_cells {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-weight: bolder;
+}
+
+.__main {}
