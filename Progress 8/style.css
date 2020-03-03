@@ -6,8 +6,13 @@
 .__buttons {
   display: flex;
   flex-direction: column;
-  margin-top: -20%;
-  margin-left: 26%;
+  margin-top: -40%;
+  margin-left: 10%;
+}
+
+.mdc-button__label{
+  letter-spacing: 1px;
+  word-spacing: 2px;
 }
 
 .btn {
@@ -15,16 +20,16 @@
   height: 50px;
 }
 
-.__background {
+.__main > .__background {
   display: flex;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 0%;
 }
 
 .__border {
-  border: 50px solid silver;
-  height: 400px;
-  width: 400px;
+  border: 100px solid silver;
+  height: 800px;
+  width: 800px;
   display: flex;
 }
 
@@ -34,14 +39,14 @@
 }
 
 .__white {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background-color: white;
 }
 
 .__black {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background-color: black;
 }
 
@@ -58,38 +63,44 @@
 }
 
 .__horizontal_one, .__horizontal_two {
-  width: 400px;
-  height: 50px;
+  width: 800px;
+  height: 100px;
   display: flex;
 }
 
 .__horizontal_two {
-  margin-top: 430px;
+  margin-top: 800px;
+  margin-left: -450px;
   flex-direction: row;
 }
 
 .__horizontal_one {
   transform: rotate(180deg);
-  margin-top: -3%;
+  margin-top: 0%;
   flex-direction: row-reverse;
+  margin-left: -450px;
 }
 
 .__vertical_one, .__vertical_two {
-  width: 50px;
-  height: 400px;
+  width: 100px;
+  height: 800px;
   display: flex;
   flex-wrap: wrap;
 }
 
+.__letters_and_digits{
+  font-size: 30px;
+}
+
 .__vertical_one {
-  margin-top: 50px;
-  margin-left: -500px;
+  margin-top: 100px;
+  margin-left: -1000px;
   flex-direction: column-reverse;
 }
 
 .__vertical_two {
-  margin-top: -400px;
-  margin-left: -50px;
+  margin-top: -800px;
+  margin-left: -100px;
   flex-direction: column;
   transform: rotate(180deg);
 }
@@ -105,15 +116,15 @@
 
 .__vertical_cells {
   text-align: center;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   font-weight: bolder;
 }
 
 .__hotrizontal_cells {
   text-align: center;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   font-weight: bolder;
 }
 
